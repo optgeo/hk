@@ -25,7 +25,7 @@
       "type": "fill"
     }
   ],
-  "site_root": "http://localhost:9966",
+  "site_root": "https://optgeo.github.io/hk",
   "sources": {
     "i": {
       "attribution": "国土地理院",
@@ -39,7 +39,7 @@
       "attribution": "<a href='https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A45.html'>「国土数値情報（国有林野データ）」（国土交通省）</a>を加工して作成",
       "maxzoom": 14,
       "tiles": [
-        "http://localhost:9966/zxy/{z}/{x}/{y}.pbf"
+        "https://optgeo.github.io/hk/zxy/{z}/{x}/{y}.pbf"
       ],
       "type": "vector"
     }
