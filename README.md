@@ -1,9 +1,12 @@
 # hk
-国土数値情報（国有林野）のディゾルブのテスト
+国土数値情報（国有林野）のディゾルブとベクトルタイル生産のテスト
 
 # 使い方
 ```
 rake dissolve
+rake tiles
+rake style
+rake host # conf/style.conf で site_root を localhost にする必要がある
 ```
 
 # どういうコマンドで処理しているか理解するためには
