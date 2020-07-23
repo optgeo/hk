@@ -3,7 +3,7 @@ require 'json'
 while gets
   f = JSON.parse($_.strip.delete("\x1e"))
   f["tippecanoe"] = {
-    :minzoom => 4,
+    :minzoom => 2,
     :maxzoom => 11,
     :layer => 'forest'
   }
