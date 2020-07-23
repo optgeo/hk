@@ -1,0 +1,49 @@
+{
+  "center": [
+    130.550537,
+    32.203505
+  ],
+  "layers": [
+    {
+      "id": "seamlessphoto",
+      "source": "i",
+      "type": "raster"
+    },
+    {
+      "id": "forest",
+      "paint": {
+        "fill-color": [
+          "rgb",
+          129,
+          199,
+          132
+        ],
+        "fill-opacity": 0.5
+      },
+      "source": "v",
+      "source-layer": "forest",
+      "type": "fill"
+    }
+  ],
+  "site_root": "http://localhost:9966",
+  "sources": {
+    "i": {
+      "attribution": "国土地理院",
+      "maxzoom": 18,
+      "tiles": [
+        "https://maps.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg"
+      ],
+      "type": "raster"
+    },
+    "v": {
+      "attribution": "<a href='https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A45.html'>「国土数値情報（国有林野データ）」（国土交通省）</a>を加工して作成",
+      "maxzoom": 14,
+      "tiles": [
+        "http://localhost:9966/zxy/{z}/{x}/{y}.pbf"
+      ],
+      "type": "vector"
+    }
+  },
+  "version": 8,
+  "zoom": 12
+}
