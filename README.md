@@ -1,6 +1,9 @@
 # hk
 国土数値情報（国有林野）のディゾルブとベクトルタイル生産のテスト
 
+![screenshot](https://optgeo.github.io/hk/img/screenshot.jpg)
+[test site](https://optgeo.github.io/hk)
+
 # 使い方
 ```
 rake dissolve
