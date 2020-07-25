@@ -36,7 +36,7 @@
       "type": "raster"
     },
     "v": {
-      "attribution": "<a href='https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A45.html'>「国土数値情報（国有林野データ）」（国土交通省）</a>を加工して作成, <img src='https://unopengis.github.io/watermark/watermark.png'>",
+      "attribution": "<a href='https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A45.html'>国土数値情報（国有林野データ）（国土交通省）</a>を国連ベクトルタイルツールキットで加工して作成",
       "maxzoom": 14,
       "tiles": [
         "https://optgeo.github.io/hk/zxy/{z}/{x}/{y}.pbf"
